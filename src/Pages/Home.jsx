@@ -9,6 +9,7 @@ import Rewards from '../Components/Rewards';
 import Feedback from '../Components/Feedback';
 import StartImg from '../Components/StartImg';
 import Navbar from '../Components/Navbar';
+import Footer from '../Components/Footer';
 
 const Home = () => {
   return (
@@ -32,6 +33,7 @@ const Home = () => {
           </Routes>
         </div>
       </div>
+      <Footer/>
     </BrowserRouter>
   );
 };

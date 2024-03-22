@@ -11,7 +11,9 @@
   },
   "dependencies": {
     "@auth0/auth0-react": "^2.2.4",
+    "bootstrap": "^5.3.3",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.10.2",
     "react-circular-progressbar": "^2.1.0",
     "react-dom": "^18.2.0",
     "react-image-pagination": "^1.0.2",

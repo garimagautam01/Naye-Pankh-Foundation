@@ -21,16 +21,16 @@ const Content = () => {
             <div className=''>
               <div className='flex flex-col bg-white mx-10 my-10 rounded-xl'>
 
-                <div class="relative h-screen">
-                  <img src="src/images/img.jpg" alt="" class="absolute inset-0 w-full h-full object-cover object-center opacity-75 rounded-t-xl" />
-                  <div class="absolute inset-0 bg-black opacity-50 rounded-t-xl"></div>
-                  <div class="absolute inset-0 flex flex-col justify-start items-start p-4 bg-black bg-opacity-40 rounded-t-xl text-left">
+                <div className="relative h-screen">
+                  <img src="src/images/img.jpg" alt="" className="absolute inset-0 w-full h-full object-cover object-center opacity-75 rounded-t-xl" />
+                  <div className="absolute inset-0 bg-black opacity-50 rounded-t-xl"></div>
+                  <div className="absolute inset-0 flex flex-col justify-start items-start p-4 bg-black bg-opacity-40 rounded-t-xl text-left">
                     <div className='mt-72 ml-80'>
                       {
-                        isAuthenticated?(<h2 class="text-red-600 font-bold text-5xl">Hello {user.name}</h2>):(<h2 class="text-red-600 font-bold text-5xl">Please signup</h2>)
+                        isAuthenticated?(<h2 className="text-red-600 font-bold text-5xl">Hello {user.name}</h2>):(<h2 className="text-red-600 font-bold text-5xl">Please signup</h2>)
                       }
                       
-                      <h4 class="text-white mt-6 italic">Initial push is the toughest! Go through the learning modules, or reach out to your fundraising manager to level up.</h4>
+                      <h4 className="text-white mt-6 italic">Initial push is the toughest! Go through the learning modules, or reach out to your fundraising manager to level up.</h4>
                     </div>
                   </div>
                 </div>
@@ -58,8 +58,8 @@ const Content = () => {
                       <div className='w-96 h-1.5 bg-slate-300 rounded-xl mt-6'></div>
                     </div>
                     <div className='mt-10 flex justify-between'>
-                      <button className="ml-20 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Rewards</button>
-                      <button className="mr-16 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Donate Here</button>
+                      <button className="ml-16 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Rewards</button>
+                      <button className="mr-12 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Donate Here</button>
                     </div>
                     <h5 className='mt-4 ml-20'>Unlock <span className='font-bold'>Ninja Level</span> at 5000</h5>
                     <div className='mt-8'>
@@ -75,7 +75,7 @@ const Content = () => {
                   title="sharing content"
                   className="ml-16 mt-4 mb-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded flex items-center justify-center space-x-2"
                 >
-                  <WhatsappIcon size={32} round={true} logoFillColor="white" />
+                  <WhatsappIcon size={32} round={true} logofillcolor="white" />
                   <span>Share On WhatsApp</span>
                 </WhatsappShareButton>
 
@@ -84,7 +84,6 @@ const Content = () => {
             </div>
           </div>
         </div>
-        <Footer />
       </div>
     </>
   )
